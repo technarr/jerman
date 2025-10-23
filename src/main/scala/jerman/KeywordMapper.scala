@@ -9,7 +9,7 @@ trait KeywordMapper {
   val start = "(?<=(\\s+|^|\\(|,))"
 
   val keywordsMap = Map(
-    "Packet(?=\\s)" -> "package",
+    "Paket(?=\\s)" -> "package",
     "gibzurück(?=\\s)" -> "return",
     "Klasse(?=[{,\\s])" -> "class",
     "Schnittstelle(?=[{,\\s])" -> "interface",
